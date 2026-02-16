@@ -1,0 +1,99 @@
+# .gitignore for Capstone DVA Project
+
+# Temporary files
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# Large data files (if needed, comment out)
+# *.csv
+# *.xlsx
+# *.xls
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.backup
+
+# Sensitive information
+*credentials*
+*password*
+*secret*
+
+# Cache
+.cache/
+*.cache
+
+# Test files (if not needed)
+test_*.py
+*_test.py
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Local configuration
+local_settings.py
+config.local.js
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Node modules (if using any JS tools)
+node_modules/
+
+# Package files
+*.tar.gz
+*.zip
+*.rar

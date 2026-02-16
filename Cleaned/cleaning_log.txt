@@ -1,0 +1,304 @@
+# Data Cleaning Log
+
+**Project:** Capstone DVA E13
+**Date Started:** [Date]
+**Completed:** [Date]
+**Cleaned By:** [Team Member Names]
+
+---
+
+## Summary
+
+**Original Records:** [Count]
+**Final Records:** [Count]
+**Records Removed:** [Count] ([%]%)
+**Fields Modified:** [Count]
+**New Fields Created:** [Count]
+
+---
+
+## Detailed Cleaning Steps
+
+### Step 1: Initial Data Assessment
+**Date:** [Date]
+**Performed By:** [Name]
+
+**Findings:**
+- Total rows: [Count]
+- Total columns: [Count]
+- Missing values detected: [Count] ([%]%)
+- Duplicate rows: [Count]
+- Inconsistent formats: [List fields]
+- Outliers identified: [Count]
+
+**Actions:** Documented initial data quality issues
+
+---
+
+### Step 2: Duplicate Removal
+**Date:** [Date]
+**Performed By:** [Name]
+
+**Method:** [Describe how duplicates were identified]
+- Criteria: [e.g., Same ID and Date]
+- Formula used: `[Formula if applicable]`
+
+**Results:**
+- Duplicates found: [Count]
+- Duplicates removed: [Count]
+- Unique records retained: [Count]
+
+**Actions:** Removed all duplicate records
+
+---
+
+### Step 3: Missing Value Treatment
+**Date:** [Date]
+**Performed By:** [Name]
+
+#### Field: [Column Name 1]
+- Missing count: [Count] ([%]%)
+- Treatment: [Imputed with mean/median/mode, removed, filled with default]
+- Rationale: [Why this approach was chosen]
+- Formula: `[Formula if applicable]`
+
+#### Field: [Column Name 2]
+- Missing count: [Count] ([%]%)
+- Treatment: [Treatment method]
+- Rationale: [Rationale]
+- Formula: `[Formula if applicable]`
+
+**Results:**
+- Total missing values before: [Count]
+- Total missing values after: [Count]
+- Completeness improved from [%]% to [%]%
+
+---
+
+### Step 4: Data Type Corrections
+**Date:** [Date]
+**Performed By:** [Name]
+
+| Field | Original Type | New Type | Conversion Method | Records Affected |
+|-------|---------------|----------|-------------------|------------------|
+| [Field 1] | [Type] | [Type] | [Method] | [Count] |
+| [Field 2] | [Type] | [Type] | [Method] | [Count] |
+
+**Formulas Used:**
+```
+[List formulas]
+Example:
+=TEXT(A2,"YYYY-MM-DD") for date conversion
+=VALUE(SUBSTITUTE(B2,"$","")) for currency conversion
+```
+
+---
+
+### Step 5: Text Standardization
+**Date:** [Date]
+**Performed By:** [Name]
+
+#### Field: [Column Name 1]
+- Issue: [e.g., Mixed case, extra spaces, inconsistent formatting]
+- Action: [e.g., Converted to uppercase, trimmed spaces]
+- Formula: `[Formula]`
+- Examples:
+  - Before: `[Example]`
+  - After: `[Example]`
+
+#### Field: [Column Name 2]
+- Issue: [Issue description]
+- Action: [Action taken]
+- Formula: `[Formula]`
+- Examples:
+  - Before: `[Example]`
+  - After: `[Example]`
+
+---
+
+### Step 6: Outlier Detection and Treatment
+**Date:** [Date]
+**Performed By:** [Name]
+
+#### Field: [Column Name 1]
+- Detection method: [e.g., IQR method, Z-score, domain knowledge]
+- Threshold: [Value]
+- Outliers found: [Count]
+- Treatment: [Capped at threshold, removed, kept with justification]
+- Rationale: [Why this approach was chosen]
+
+**Details:**
+- Lower bound: [Value]
+- Upper bound: [Value]
+- Median: [Value]
+- Records affected: [Count]
+
+#### Field: [Column Name 2]
+- Detection method: [Method]
+- Threshold: [Value]
+- Outliers found: [Count]
+- Treatment: [Treatment]
+- Rationale: [Rationale]
+
+---
+
+### Step 7: Value Validation
+**Date:** [Date]
+**Performed By:** [Name]
+
+| Field | Validation Rule | Invalid Count | Action Taken |
+|-------|----------------|---------------|--------------|
+| [Field 1] | [Rule] | [Count] | [Action] |
+| [Field 2] | [Rule] | [Count] | [Action] |
+
+**Examples:**
+- Email format validation: `[Formula or method]`
+- Phone number validation: `[Formula or method]`
+- Date range validation: `[Formula or method]`
+
+---
+
+### Step 8: Feature Engineering
+**Date:** [Date]
+**Performed By:** [Name]
+
+#### New Field 1: [Field Name]
+- **Formula:** `[Formula]`
+- **Purpose:** [Why this field was created]
+- **Data Type:** [Type]
+- **Example Values:** [Examples]
+- **Used For:** [How it will be used in analysis]
+
+#### New Field 2: [Field Name]
+- **Formula:** `[Formula]`
+- **Purpose:** [Purpose]
+- **Data Type:** [Type]
+- **Example Values:** [Examples]
+- **Used For:** [Usage]
+
+---
+
+### Step 9: Final Validation
+**Date:** [Date]
+**Performed By:** [Name]
+
+**Checks Performed:**
+- [ ] No duplicate records
+- [ ] All required fields populated
+- [ ] Data types correct
+- [ ] No invalid values
+- [ ] Outliers handled appropriately
+- [ ] Calculated fields working correctly
+- [ ] Cross-field validations passed
+
+**Issues Found:** [None or list issues]
+
+**Resolution:** [How issues were resolved]
+
+---
+
+## Data Quality Metrics
+
+### Before Cleaning
+
+| Metric | Value |
+|--------|-------|
+| Total Records | [Count] |
+| Completeness | [%]% |
+| Accuracy | [%]% |
+| Consistency | [%]% |
+| Validity | [%]% |
+| Duplicates | [Count] |
+| Missing Values | [Count] |
+| Invalid Entries | [Count] |
+
+### After Cleaning
+
+| Metric | Value | Improvement |
+|--------|-------|-------------|
+| Total Records | [Count] | [+/- Count] |
+| Completeness | [%]% | +[%]% |
+| Accuracy | [%]% | +[%]% |
+| Consistency | [%]% | +[%]% |
+| Validity | [%]% | +[%]% |
+| Duplicates | 0 | -[Count] |
+| Missing Values | [Count] | -[Count] |
+| Invalid Entries | 0 | -[Count] |
+
+---
+
+## Tools & Formulas Used
+
+### Google Sheets Formulas
+```
+1. Remove duplicates: =UNIQUE(range)
+2. Fill missing values: =IFERROR(A2, AVERAGE($A$2:$A$1000))
+3. Trim spaces: =TRIM(A2)
+4. Uppercase: =UPPER(A2)
+5. Date formatting: =TEXT(A2,"YYYY-MM-DD")
+6. Remove special characters: =REGEXREPLACE(A2,"[^A-Za-z0-9 ]","")
+7. Conditional replacement: =IF(condition, value_if_true, value_if_false)
+```
+
+### Python Scripts (if used)
+```python
+# List any Python scripts used for cleaning
+```
+
+---
+
+## Validation Queries
+
+Document any queries or checks used to validate the cleaned data:
+
+```
+1. Check for duplicates: =COUNTIF(range, criteria) > 1
+2. Check for blanks: =COUNTBLANK(range)
+3. Check data types: =TYPE(cell)
+4. Validate ranges: =AND(A2>=min, A2<=max)
+```
+
+---
+
+## Known Limitations
+
+1. **[Limitation 1]:** [Description and impact]
+2. **[Limitation 2]:** [Description and impact]
+3. **[Limitation 3]:** [Description and impact]
+
+---
+
+## Assumptions Made
+
+1. **[Assumption 1]:** [Description and justification]
+2. **[Assumption 2]:** [Description and justification]
+3. **[Assumption 3]:** [Description and justification]
+
+---
+
+## Recommendations for Future
+
+1. [Recommendation 1]
+2. [Recommendation 2]
+3. [Recommendation 3]
+
+---
+
+## Sign-Off
+
+**Cleaned By:** [Name] - [Date]
+**Reviewed By:** [Name] - [Date]
+**Approved By:** [Name] - [Date]
+
+---
+
+## Appendix
+
+### Error Log
+[Document any errors encountered during cleaning]
+
+### Special Cases
+[Document any special cases or exceptions]
+
+### Reference Materials
+[List any reference materials used for cleaning decisions]
