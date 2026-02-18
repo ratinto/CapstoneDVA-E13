@@ -21,21 +21,28 @@
 
 ## 📋 Project Overview
 
-**Project Title:** [Add Your Project Title Here]
+**Project Title:** Crime Trend Analysis in Los Angeles
 
-**Industry Sector:** [e.g., Retail, Healthcare, Finance, E-commerce, etc.]
+**Industry Sector:** Home Affairs & National Security
 
 **Problem Statement:** 
-[Describe the real-world problem you are solving. Be specific about the business challenge and what insights you aim to deliver.]
+[Los Angeles experiences a significant number of reported crimes each year. Without structured analysis, it becomes difficult to identify the highest-risk areas, major crime drivers, and operational gaps. This project analyses crime trends from 2020–2024 to surface actionable insights that can support crime reduction strategies and improve public safety planning]
 
 **Objectives:**
-- [Objective 1: e.g., Identify key factors affecting customer churn]
-- [Objective 2: e.g., Develop KPIs to monitor business performance]
-- [Objective 3: e.g., Create actionable recommendations for stakeholders]
+- [The objective of this project is to
+identify year-wise crime trends,
+dominant crime categories,
+hotspot areas, peak time windows,
+and case closure performance
+using crime data from 2020–2024.]
+- [These insights will support
+targeted decision-making to
+reduce crime and improve
+operational efficiency in high-risk
+zones.]
 
 **Tools & Technologies:**
 - **Primary:** Google Sheets (Mandatory)
-- **Optional:** Looker Studio, Python
 - **Version Control:** GitHub
 
 ---
@@ -44,73 +51,15 @@
 
 ### Dataset Information
 
-**Dataset Name:** [Your approved dataset name]
+**Dataset Name:** [Crime_Data_from_2020_to_Present_20260211]
 
 **Source:** [data.lacity.org](https://data.lacity.org/)
 
 **Size:** 
-- Number of Records: [e.g., 10,000 rows]
-- Number of Features: [e.g., 25 columns]
-- File Size: [e.g., 5 MB]
+- Number of Records: [10,000 rows]
+- Number of Features: [30 columns]
 
-**Time Period:** [e.g., January 2020 - December 2025]
-
-### Dataset Analysis Screenshots
-
-**Raw Data Preview:**
-
-![Raw Dataset Screenshot](Documentation/screenshots/raw_data_preview.png)
-
-**Data Structure:**
-
-![Data Structure](Documentation/screenshots/data_structure.png)
-
-**Initial Statistics:**
-
-![Initial Statistics](Documentation/screenshots/initial_statistics.png)
-
----
-
-## 📁 File Details
-
-### Repository Structure
-
-```
-CapstoneDVA-E13/
-│
-├── RawDataset/
-│   ├── [original_dataset].csv
-│   └── README.md (Data source and description)
-│
-├── Cleaned/
-│   ├── [cleaned_dataset].csv
-│   ├── cleaning_log.txt
-│   └── README.md (Cleaning steps overview)
-│
-├── Calculations_Pivots/
-│   ├── kpi_calculations.xlsx
-│   ├── pivot_tables.xlsx
-│   ├── analysis_sheets/
-│   └── README.md (Calculation methodologies)
-│
-├── Dashboard/
-│   ├── dashboard_screenshots/
-│   ├── dashboard_links.md
-│   └── README.md (Dashboard guide)
-│
-├── Documentation/
-│   ├── data_dictionary.md
-│   ├── project_proposal.pdf
-│   ├── analysis_report.pdf
-│   └── screenshots/
-│
-├── Presentation/
-│   ├── final_presentation.pptx
-│   ├── presentation_notes.md
-│   └── README.md
-│
-└── README.md (This file)
-```
+**Time Period:** [February 2026]
 
 ### Google Sheets Links
 
@@ -122,70 +71,27 @@ CapstoneDVA-E13/
 
 **Pivot Analysis Sheet:** [https://docs.google.com/spreadsheets/d/16M1RjcCEKq5YiyMkyH-rGxttXs5jKLU536N0zey8K9Y/edit?usp=sharing]
 
----
-
-## 📖 Data Dictionary
-
-| Column Name | Data Type | Description | Example Values | Notes |
-|-------------|-----------|-------------|----------------|-------|
-| [column_1] | [String/Integer/Float/Date] | [Description of what this column represents] | [e.g., "New York", 100, 25.5] | [Any special notes] |
-| [column_2] | [Type] | [Description] | [Examples] | [Notes] |
-| [column_3] | [Type] | [Description] | [Examples] | [Notes] |
-| ... | ... | ... | ... | ... |
 
 ### Key Fields Explanation
 
-**[Important Field 1]:** [Detailed explanation of significance and usage]
+**[Dangerous Zone (Top
+Crime Area)]:** [Identifies the highest
+crime area to prioritize
+hotspot deployment and
+resource allocation.]
+**[Case_Status]:** [Identifies status of case whether it is solved or not]
 
-**[Important Field 2]:** [Detailed explanation of significance and usage]
-
----
-
-## 💡 Key Insights & Statistics
-
-### Executive Summary
-
-[Provide a 2-3 paragraph summary of your main findings]
-
-### Key Performance Indicators (KPIs)
-
-1. **[KPI Name 1]**
-   - **Formula:** [e.g., (Total Revenue / Total Customers)]
-   - **Current Value:** [e.g., $1,250]
-   - **Insight:** [What this KPI tells us]
-
-2. **[KPI Name 2]**
-   - **Formula:** [Formula]
-   - **Current Value:** [Value]
-   - **Insight:** [Interpretation]
-
-3. **[KPI Name 3]**
-   - **Formula:** [Formula]
-   - **Current Value:** [Value]
-   - **Insight:** [Interpretation]
 
 ### Statistical Insights
 
-- **Total Records Analyzed:** [Number]
-- **Time Period Covered:** [Date range]
-- **Average [Metric]:** [Value]
-- **Median [Metric]:** [Value]
-- **Standard Deviation:** [Value]
-- **Key Correlations:** [e.g., 0.85 correlation between X and Y]
+- **Total Records Analyzed:** [~10000]
+- **Time Period Covered:** [2020 to 2024]
 
 ### Trend Analysis
 
-- **[Trend 1]:** [Description with percentage or numbers]
-- **[Trend 2]:** [Description with percentage or numbers]
-- **[Trend 3]:** [Description with percentage or numbers]
+- **[Serious Crimes]:** [60%]
+- **[Less Serious Crimes]:** [40%]
 
-### Business Impact
-
-- **[Impact Area 1]:** [Quantified impact]
-- **[Impact Area 2]:** [Quantified impact]
-- **[Impact Area 3]:** [Quantified impact]
-
----
 
 ## 🔍 Analysis Suggestions
 
