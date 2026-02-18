@@ -46,7 +46,7 @@
 
 **Dataset Name:** [Your approved dataset name]
 
-**Source:** [Dataset source - must be from approved list]
+**Source:** [data.lacity.org]
 
 **Size:** 
 - Number of Records: [e.g., 10,000 rows]
@@ -114,13 +114,13 @@ CapstoneDVA-E13/
 
 ### Google Sheets Links
 
-**Main Project Sheet:** [Add Google Sheets Link]
+**Main Project Sheet:** [https://docs.google.com/spreadsheets/d/16M1RjcCEKq5YiyMkyH-rGxttXs5jKLU536N0zey8K9Y/edit?usp=sharing]
 
-**Cleaned Data Sheet:** [Add Google Sheets Link]
+**Cleaned Data Sheet:** [https://docs.google.com/spreadsheets/d/16M1RjcCEKq5YiyMkyH-rGxttXs5jKLU536N0zey8K9Y/edit?gid=97077233#gid=97077233]
 
-**KPI Dashboard Sheet:** [Add Google Sheets Link]
+**KPI Dashboard Sheet:** [https://docs.google.com/spreadsheets/d/16M1RjcCEKq5YiyMkyH-rGxttXs5jKLU536N0zey8K9Y/edit?gid=167284618#gid=167284618]
 
-**Pivot Analysis Sheet:** [Add Google Sheets Link]
+**Pivot Analysis Sheet:** [https://docs.google.com/spreadsheets/d/16M1RjcCEKq5YiyMkyH-rGxttXs5jKLU536N0zey8K9Y/edit?usp=sharing]
 
 ---
 
@@ -317,7 +317,7 @@ Example:
 - [Key insight 2]
 - [Key insight 3]
 
-**Access:** [Google Sheets Link / Looker Studio Link]
+**Access:** [https://docs.google.com/spreadsheets/d/16M1RjcCEKq5YiyMkyH-rGxttXs5jKLU536N0zey8K9Y/edit?usp=sharing]
 
 ---
 
