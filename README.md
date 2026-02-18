@@ -46,7 +46,7 @@
 
 **Dataset Name:** [Your approved dataset name]
 
-**Source:** data.lacity.org
+**Source:** [data.lacity.org](https://data.lacity.org/)
 
 **Size:** 
 - Number of Records: [e.g., 10,000 rows]
