@@ -408,9 +408,8 @@ Based on our analysis, we recommend the following actions:
 ## 📚 Additional Resources
 
 ### Documentation
-- [Data Dictionary](Documentation/data_dictionary.md)
-- [Analysis Report](Documentation/analysis_report.pdf)
-- [Project Proposal](Documentation/project_proposal.pdf)
+- [Data Dictionary](https://data.lacity.org/)
+- [Analysis Report](https://www.canva.com/design/DAHBpRq_eqY/LsIckeAq8rokjP74N03Y7Q/edit?utm_content=DAHBpRq_eqY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### Presentation Materials
 - [Final Presentation](https://www.canva.com/design/DAHBgnX95oc/hAPZIetUzR-FQlYHQukAvg/edit?utm_content=DAHBgnX95oc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
