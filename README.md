@@ -396,7 +396,7 @@ Based on our analysis, we recommend the following actions:
 
 ## 🌐 Project Website
 
-**Live Demo:** [Add your project website link here if created]
+**Live Demo:** [https://docs.google.com/spreadsheets/d/16M1RjcCEKq5YiyMkyH-rGxttXs5jKLU536N0zey8K9Y/edit?usp=sharing]
 
 **Features:**
 - Interactive dashboard
@@ -413,8 +413,7 @@ Based on our analysis, we recommend the following actions:
 - [Project Proposal](Documentation/project_proposal.pdf)
 
 ### Presentation Materials
-- [Final Presentation](Presentation/final_presentation.pptx)
-- [Presentation Notes](Presentation/presentation_notes.md)
+- [Final Presentation](https://www.canva.com/design/DAHBgnX95oc/hAPZIetUzR-FQlYHQukAvg/edit?utm_content=DAHBgnX95oc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
@@ -444,11 +443,9 @@ Based on our analysis, we recommend the following actions:
 ## 🔗 Important Links
 
 - **GitHub Repository:** [https://github.com/ratinto/CapstoneDVA-E13](https://github.com/ratinto/CapstoneDVA-E13)
-- **Google Sheets - Main Project:** [Add Link]
-- **Google Sheets - Cleaned Data:** [Add Link]
-- **Google Sheets - KPI Dashboard:** [Add Link]
-- **Looker Studio Dashboard:** [Add Link if applicable]
-- **Project Website:** [Add Link if created]
+- **Google Sheets - Main Project:** [https://docs.google.com/spreadsheets/d/16M1RjcCEKq5YiyMkyH-rGxttXs5jKLU536N0zey8K9Y/edit?usp=sharing]
+- **Google Sheets - Cleaned Data:** [https://docs.google.com/spreadsheets/d/16M1RjcCEKq5YiyMkyH-rGxttXs5jKLU536N0zey8K9Y/edit?gid=97077233#gid=97077233]
+- **Google Sheets - KPI Dashboard:** [https://docs.google.com/spreadsheets/d/16M1RjcCEKq5YiyMkyH-rGxttXs5jKLU536N0zey8K9Y/edit?gid=167284618#gid=167284618]
 
 ---
 
