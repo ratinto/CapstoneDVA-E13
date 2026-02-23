@@ -7,14 +7,8 @@ This folder contains all dashboard-related materials including screenshots, link
 ## Dashboard Links
 
 ### Google Sheets Dashboard
-**Link:** [Add Google Sheets dashboard link]
+**Link:** https://docs.google.com/spreadsheets/d/16M1RjcCEKq5YiyMkyH-rGxttXs5jKLU536N0zey8K9Y/edit?gid=167284618#gid=167284618
 
-**Last Updated:** [Date]
-
-### Looker Studio Dashboard (Optional)
-**Link:** [Add Looker Studio link if created]
-
-**Last Updated:** [Date]
 
 ## Dashboard Structure
 
@@ -22,64 +16,87 @@ This folder contains all dashboard-related materials including screenshots, link
 **Purpose:** High-level KPIs and trends for executive decision-making
 
 **Key Metrics:**
-- [Metric 1]
-- [Metric 2]
-- [Metric 3]
+Total Crimes Reported: 9,995
+
+Highest Crime Year: 2022
+
+Lowest Crime Year: 2024
+
+Serious Crimes Percentage: 60.30%
+
+Less Serious Crimes Percentage: 39.70%
+
+Most Dangerous Zone: Central
 
 **Visualizations:**
-- [Chart 1 description]
-- [Chart 2 description]
-- [Chart 3 description]
+Crime Type Bar Chart – Comparison of Serious vs Less Serious crimes by year
+
+Yearly Crime Trend Chart – Total crimes reported from 2020–2024
+
+Crime by Time (Line Chart) – Crime frequency by hour of the day
+
+Area-wise Crime Bar Chart – Crime distribution across LA areas
+
+Gender-based Crime Chart – Crime distribution by victim gender
+
+Case Status Pie Chart – Distribution of case resolutions
 
 ### Dashboard 2: Detailed Analysis
 **Purpose:** In-depth analysis for operational insights
 
 **Key Metrics:**
-- [Metric 1]
-- [Metric 2]
-- [Metric 3]
+Crimes by Area Name
 
+Crimes by Victim Gender
+
+Crimes by Time Occurred
+
+Case Status Distribution
 **Visualizations:**
-- [Chart 1 description]
-- [Chart 2 description]
+Horizontal Bar Chart (Area-wise crime count)
 
-## Screenshots
+Line & Column Chart (Gender-based yearly trend)
 
-Screenshots of all dashboards are saved in `dashboard_screenshots/` folder:
+Hourly Crime Trend Line Chart
 
-- `executive_dashboard.png` - Executive overview
-- `detailed_analysis.png` - Detailed analysis dashboard
-- `kpi_summary.png` - KPI summary view
+Pie Chart (Case status breakdown)
 
 ## Dashboard Features
 
 ### Interactive Elements
-- [ ] Filters by [dimension]
-- [ ] Date range selector
-- [ ] Drill-down capabilities
-- [ ] Dynamic charts
+✔ Filters by:
+
+Year_Reported
+
+Victim_Gender
+
+Area_Name
+
+✔ Dynamic charts (update when filters change)
+✔ KPI cards auto-update with slicers
 
 ### Visualization Types Used
-- Bar charts
-- Line graphs
-- Pie charts
-- Heat maps
-- Scorecards
+✔ Bar charts
+✔ Line graphs
+✔ Pie charts
+✔ KPI Scorecards
+✔ Horizontal bar charts
 
 ## Usage Instructions
 
-1. **Access the dashboard:** Click on the Google Sheets link above
-2. **Filter data:** Use dropdown menus to filter by [dimensions]
-3. **Export reports:** File > Download as > [format]
-4. **Refresh data:** [Instructions if applicable]
+Access the dashboard: Open the Google Sheets file.
+
+Filter data: Use the slicers at the top (Year, Gender, Area).
+
+View insights: Charts update automatically based on selected filters.
+
+Export reports: File → Download as → PDF / Excel.
+
+Refresh data: Update the raw dataset sheet; pivot tables auto-refresh.
 
 ## Dashboard Updates
+Date	Update     Description	            Updated By
+20   Feb 2026	   Initial dashboard created	Khushi Jain
+22   Feb 2026	   Added KPI cards and slicers	Khushi Jain
 
-| Date | Update Description | Updated By |
-|------|-------------------|------------|
-| [Date] | Initial dashboard created | [Name] |
-| [Date] | Added [feature] | [Name] |
 
-## Feedback & Improvements
-
-[Document any feedback received and planned improvements]
