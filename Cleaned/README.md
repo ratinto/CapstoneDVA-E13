@@ -6,9 +6,9 @@ This folder contains the cleaned and processed version of the raw dataset, ready
 
 ## Files
 
-- `[cleaned_dataset_name].csv` - Cleaned dataset
-- `cleaning_log.txt` - Detailed log of all cleaning operations performed
-- `cleaning_summary.md` - Summary of cleaning steps and their impact
+- `New Cleaned Datset` - Cleaned dataset
+- `LOGS` - Detailed log of all cleaning operations performed
+- `LOGS` - Summary of cleaning steps and their impact
 
 ## Cleaning Overview
 
