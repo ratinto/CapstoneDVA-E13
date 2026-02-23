@@ -16,49 +16,49 @@ The objective of this analysis is to extract meaningful insights related to crim
 
 ## KPI 1: Crime_Type_Yearly
 
-Formula: =ROUND(Total_Crime/Year_Total,2)
-Purpose: Calculates the percentage contribution of each crime type within a specific year.
-Insight: Identifies dominant crime categories and year-over-year trend shifts.
+Formula: =ROUND(Total_Crime/Year_Total,2)  
+Purpose: Calculates the percentage contribution of each crime type within a specific year.  
+Insight: Identifies dominant crime categories and year-over-year trend shifts.  
 
 ---
 
 ## KPI 2: Crime_Per_Area
 
-Formula: =INDEX(Range,MATCH(Value,Lookup_Range,0))
-Purpose: Dynamically retrieves crime count for a specific area.
-Insight: Helps identify high-crime zones.
+Formula: =INDEX(Range,MATCH(Value,Lookup_Range,0))   
+Purpose: Dynamically retrieves crime count for a specific area.  
+Insight: Helps identify high-crime zones.  
 
 ---
 
 ## KPI 3: Crime_Time
 
-Formula: =SUM(Range)
-Purpose: Calculates total crimes occurring within specific time intervals.
-Insight: Reveals peak crime hours.
+Formula: =SUM(Range)  
+Purpose: Calculates total crimes occurring within specific time intervals.  
+Insight: Reveals peak crime hours.  
 
 ---
 
 ## KPI 4: Case_Status_Yearly
 
-Formula: =SUMIF(Range,Criteria,Sum_Range)
-Purpose: Calculates total cases per status (Open, Closed, Pending) for each year.
-Insight: Evaluates case resolution performance over time.
+Formula: =SUMIF(Range,Criteria,Sum_Range)  
+Purpose: Calculates total cases per status (Open, Closed, Pending) for each year.  
+Insight: Evaluates case resolution performance over time.  
 
 ---
 
 ## KPI 5: Case_Yearly_Reported
 
-Formula: =INDEX(Range,MATCH(Year,Year_Range,0))
-Purpose: Retrieves total reported cases per year.
-Insight: Tracks annual crime reporting trends.
+Formula: =INDEX(Range,MATCH(Year,Year_Range,0))  
+Purpose: Retrieves total reported cases per year.  
+Insight: Tracks annual crime reporting trends.  
 
 ---
 
 ## KPI 6: Yearly_GenderWise_Crime_Reported
 
-Formula: =SUM(Range1)-SUM(Range2)
-Purpose: Compares crime reports between genders.
-Insight: Identifies demographic crime trends.
+Formula: =SUM(Range1)-SUM(Range2)  
+Purpose: Compares crime reports between genders.  
+Insight: Identifies demographic crime trends.  
 
 ---
 
