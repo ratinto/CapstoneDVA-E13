@@ -2,80 +2,163 @@
 
 ## About This Folder
 
-This folder contains all KPI calculations, pivot tables, and analytical computations performed on the cleaned dataset.
+This folder contains all Key Performance Indicator (KPI) calculations, pivot table analyses, and analytical computations performed on the cleaned crime dataset.
+The objective of this analysis is to extract meaningful insights related to crime trends, area distribution, case resolution patterns, and demographic impact.
+
+---
 
 ## Files
 
-- `kpi_calculations.xlsx` - All KPI formulas and calculations
-- `pivot_tables.xlsx` - Pivot table analyses
-- `analysis_sheets/` - Additional analytical worksheets
+- LOGS: Contains all KPI formulas, intermediate calculations, and verification sheets.
+---
 
-## Key Performance Indicators (KPIs)
+# Key Performance Indicators (KPIs)
 
-### KPI 1: [KPI Name]
-- **Formula:** [Formula]
-- **Purpose:** [What it measures]
-- **Target Value:** [If applicable]
-- **Current Value:** [Value]
+## KPI 1: Crime_Type_Yearly
 
-### KPI 2: [KPI Name]
-- **Formula:** [Formula]
-- **Purpose:** [What it measures]
-- **Target Value:** [If applicable]
-- **Current Value:** [Value]
+Formula: =ROUND(Total_Crime/Year_Total,2)
+Purpose: Calculates the percentage contribution of each crime type within a specific year.
+Insight: Identifies dominant crime categories and year-over-year trend shifts.
 
-### KPI 3: [KPI Name]
-- **Formula:** [Formula]
-- **Purpose:** [What it measures]
-- **Target Value:** [If applicable]
-- **Current Value:** [Value]
+---
 
-## Pivot Table Analyses
+## KPI 2: Crime_Per_Area
 
-### Pivot 1: [Analysis Name]
-- **Rows:** [Field(s)]
-- **Columns:** [Field(s)]
-- **Values:** [Metric(s)]
-- **Insight:** [What this reveals]
+Formula: =INDEX(Range,MATCH(Value,Lookup_Range,0))
+Purpose: Dynamically retrieves crime count for a specific area.
+Insight: Helps identify high-crime zones.
 
-### Pivot 2: [Analysis Name]
-- **Rows:** [Field(s)]
-- **Columns:** [Field(s)]
-- **Values:** [Metric(s)]
-- **Insight:** [What this reveals]
+---
 
-### Pivot 3: [Analysis Name]
-- **Rows:** [Field(s)]
-- **Columns:** [Field(s)]
-- **Values:** [Metric(s)]
-- **Insight:** [What this reveals]
+## KPI 3: Crime_Time
 
-## Google Sheets Links
+Formula: =SUM(Range)
+Purpose: Calculates total crimes occurring within specific time intervals.
+Insight: Reveals peak crime hours.
 
-**KPI Calculations:** [Add Google Sheets link]
+---
 
-**Pivot Analysis:** [Add Google Sheets link]
+## KPI 4: Case_Status_Yearly
 
-## Calculation Methodologies
+Formula: =SUMIF(Range,Criteria,Sum_Range)
+Purpose: Calculates total cases per status (Open, Closed, Pending) for each year.
+Insight: Evaluates case resolution performance over time.
 
-### Data Aggregation
-[Describe how data was aggregated for analysis]
+---
 
-### Statistical Methods
-[Describe any statistical methods used]
+## KPI 5: Case_Yearly_Reported
 
-### Formulas Used
-```
-[List key formulas]
-Example:
-- SUMIFS(range, criteria_range, criteria)
-- AVERAGEIF(range, criteria, average_range)
-- COUNTIFS(criteria_range1, criteria1, criteria_range2, criteria2)
-```
+Formula: =INDEX(Range,MATCH(Year,Year_Range,0))
+Purpose: Retrieves total reported cases per year.
+Insight: Tracks annual crime reporting trends.
 
-## Validation Status
+---
 
-- [ ] All calculations verified
-- [ ] Pivot tables reviewed
-- [ ] Results cross-checked
-- [ ] KPIs documented
+## KPI 6: Yearly_GenderWise_Crime_Reported
+
+Formula: =SUM(Range1)-SUM(Range2)
+Purpose: Compares crime reports between genders.
+Insight: Identifies demographic crime trends.
+
+---
+
+# Pivot Table Analyses
+
+## Pivot 1: Crime_Type_Yearly
+
+Rows: Crime_Type  
+Columns: Year_Occured  
+Values: Count of Records  
+Insight: Shows distribution of crime types across years and identifies rising or declining trends.
+
+---
+
+## Pivot 2: Crime_Per_Area
+
+Rows: Area_Name  
+Columns: None  
+Values: Count of Records  
+Insight: Highlights geographical crime concentration.
+
+---
+
+## Pivot 3: Crime_Time
+
+Rows: Time_Occured_Hour  
+Columns: None  
+Values: Count of Records  
+Insight: Identifies high-risk time periods.
+
+---
+
+## Pivot 4: Case_Status_Yearly
+
+Rows: Case_Status  
+Columns: Year_Occured  
+Values: Count of Records  
+Insight: Compares case resolution status across years.
+
+---
+
+## Pivot 5: Case_Yearly_Reported
+
+Rows: Year_Reported  
+Columns: None  
+Values: Count of Records  
+Insight: Displays yearly crime reporting patterns.
+
+---
+
+## Pivot 6: Yearly_GenderWise_Crime_Reported
+
+Rows: Year_Reported  
+Columns: Victim_Gender  
+Values: Count of Records  
+Insight: Analyzes gender-based reporting trends over years.
+
+---
+
+# Calculation Methodologies
+
+## Data Aggregation
+
+- Removed duplicate records  
+- Handled missing values  
+- Standardized categorical fields  
+- Extracted Year_Occured and Year_Reported  
+- Extracted Time_Occured_Hour  
+- Used Pivot Tables for grouped aggregation  
+- Cross-verified totals using SUM validation  
+
+---
+
+## Statistical Methods Used
+
+- Percentage contribution analysis  
+- Year-over-year comparison  
+- Conditional aggregation (SUMIF, COUNTIFS)  
+- Lookup functions (INDEX + MATCH)  
+- Manual total reconciliation  
+
+---
+
+## Core Excel Functions Used
+
+SUM()  
+SUMIF()  
+SUMIFS()  
+COUNTIFS()  
+INDEX()  
+MATCH()  
+ROUND()  
+AVERAGEIF()  
+
+---
+
+
+# Validation Status
+
+[✔] All calculations verified  
+[✔] Pivot tables reviewed  
+[✔] Results cross-checked  
+[x] KPIs documented
