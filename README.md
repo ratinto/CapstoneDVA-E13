@@ -39,14 +39,14 @@ This project analyzes LAPD crime data from **2020 to 2024** to uncover patterns 
 
 ## 👥 Team & Contributions
 
-| Team Member | Dataset & Sourcing | Cleaning | KPI & Analysis | Dashboard | Report Writing | Role |
-|---|:---:|:---:|:---:|:---:|:---:|---|
-| **Akshat Agrawal** | ✓ | ✓ | ✓ | ✓ | | Analytics Lead |
-| **Khushi Jain** | | | | ✓ | ✓ | Dashboard Lead |
-| **Aman Bhatnagar** | ✓ | ✓ | ✓ | | ✓ | Data Lead |
-| **Pranavi Mathur** | | | | | ✓ | Strategy Lead |
-| **Ishita Thakur** | ✓ | ✓ | ✓ | ✓ | | PPT Lead |
-| **Ritesh Kumar** | ✓ | ✓ | ✓ | ✓ | ✓ | Project Lead |
+| Team Member | Dataset & Sourcing | Cleaning | KPI & Analysis | Dashboard | Report Writing | PPT | Role | 
+|---|:---:|:---:|:---:|:---:|:---:|:---:|---|
+| **Akshat Agrawal** | ✓ | ✓ | ✓ | ✓ | | | Analytics Lead |
+| **Khushi Jain** | | | | ✓ | ✓ | | Dashboard Lead |
+| **Aman Bhatnagar** | ✓ | ✓ | ✓ | | ✓ | | Data Lead |
+| **Pranavi Mathur** | ✓ | | ✓ | | ✓ | ✓ | Strategy Lead |
+| **Ishita Thakur** | ✓ | ✓ | ✓ | ✓ | | | PPT Lead |
+| **Ritesh Kumar** | ✓ | ✓ | ✓ | ✓ | ✓ | | Project Lead |
 
 > Contribution details are verifiable through Google Sheets version history and submitted project artifacts.
 
