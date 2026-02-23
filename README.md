@@ -44,7 +44,7 @@ This project analyzes LAPD crime data from **2020 to 2024** to uncover patterns 
 | **Akshat Agrawal** | ✓ |  | ✓ | ✓ |  | ✓ | Analytics Lead |
 | **Khushi Jain** | ✓ | | | ✓ | ✓ | ✓ | Dashboard Lead |
 | **Aman Bhatnagar** | ✓ | ✓ |  | | | | Data Lead |
-| **Pranavi Mathur** | ✓ | |  | | ✓ | ✓ | Strategy Lead |
+| **Pranavi Mathur** | ✓ | | ✓ | | ✓ | ✓ | Strategy Lead |
 | **Ishita Thakur** | ✓ | | | | |✓| PPT Lead |
 | **Ritesh Kumar** | ✓ |  |  |  | ✓ | | Project Lead |
 
