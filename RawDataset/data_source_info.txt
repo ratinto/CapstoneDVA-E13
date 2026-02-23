@@ -1,0 +1,218 @@
+================================================================================
+LAPD CRIME DATA SOURCE INFORMATION
+================================================================================
+
+Dataset Name: Crime Data from 2020 to Present
+Project: Los Angeles Crime Analytics Dashboard
+Capstone: DVA Capstone 1 - Group 13, Section E
+Date Obtained: February 11, 2026
+
+================================================================================
+PRIMARY SOURCE
+================================================================================
+
+Organization:     Los Angeles Police Department (LAPD)
+Platform:         City of Los Angeles Open Data Portal
+Portal URL:       https://data.lacity.org/
+Dataset URL:      https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/
+API Access:       Available via Socrata Open Data API (SODA)
+Download Format:  CSV, JSON, XML, RDF
+
+================================================================================
+DATASET CHARACTERISTICS
+================================================================================
+
+Time Period:      January 1, 2020 - December 31, 2024
+Update Frequency: Weekly (typically every Wednesday)
+Last Updated:     Week of February 10, 2026
+Total Records:    ~10,000 (analysis subset)
+Geographic Scope: City of Los Angeles, all 21 LAPD divisions
+Crime Types:      All Part I and Part II crimes (FBI UCR standard)
+
+================================================================================
+LICENSE & USAGE RIGHTS
+================================================================================
+
+License Type:     Open Data Commons Public Domain Dedication and License (PDDL)
+License URL:      https://opendatacommons.org/licenses/pddl/
+Terms of Use:     Public Domain - Free to use, modify, and distribute
+Attribution:      Recommended but not required
+Commercial Use:   Allowed
+Redistribution:   Allowed
+
+================================================================================
+DATA COLLECTION METHODOLOGY
+================================================================================
+
+Primary Source:        LAPD Incident Reporting System
+Collection Method:     Official police reports filed by patrol officers
+Data Entry System:     LAPD Records Management System (RMS)
+Quality Assurance:     Multi-level review by supervisors and data analysts
+Geocoding System:      Automated address-to-coordinate conversion
+Privacy Protection:    PII removed; addresses rounded to 100-block level
+
+Crime Classification:  Uniform Crime Reporting (UCR) standards
+Reporting Standard:    FBI National Incident-Based Reporting System (NIBRS)
+Time Recording:        24-hour format, rounded to nearest minute
+
+================================================================================
+GEOGRAPHIC COVERAGE
+================================================================================
+
+21 LAPD Community Police Stations (Areas):
+
+01 - Central           08 - West LA          15 - N Hollywood
+02 - Rampart           09 - Van Nuys         16 - Foothill
+03 - Southwest         10 - West Valley      17 - Devonshire
+04 - Hollenbeck        11 - Northeast        18 - Southeast
+05 - Harbor            12 - 77th Street      19 - Mission
+06 - Hollywood         13 - Newton           20 - Olympic
+07 - Wilshire          14 - Pacific          21 - Topanga
+
+Total Area: ~503 square miles
+Population Served: ~4 million residents
+
+================================================================================
+DATA QUALITY NOTES
+================================================================================
+
+Completeness:
+  - Victim demographics: 90-95% complete
+  - Geographic coordinates: 98% complete
+  - Weapon descriptions: 70% complete (not applicable for many crimes)
+  - Premise descriptions: 95% complete
+
+Accuracy:
+  - Addresses rounded to nearest 100 block for privacy
+  - Times recorded to nearest minute
+  - Crime codes standardized to UCR definitions
+  - Coordinates verified through LAPD geocoding system
+
+Known Limitations:
+  - Delayed reporting may affect Date Reported vs Date Occurred
+  - Some crime types may be reclassified during investigation
+  - Missing data in optional fields (e.g., weapon for non-violent crimes)
+  - Historic records may have different data entry standards
+
+================================================================================
+RELATED DATASETS (Available on LA Open Data Portal)
+================================================================================
+
+1. Crime Data from 2010 to 2019
+2. Arrest Data from 2020 to Present
+3. Victim Data from 2020 to Present
+4. LAPD Calls for Service
+5. Traffic Collision Data from 2010 to Present
+
+================================================================================
+TECHNICAL SPECIFICATIONS
+================================================================================
+
+File Format:       CSV (UTF-8 encoding)
+Delimiter:         Comma (,)
+Text Qualifier:    Double quotes (")
+Line Terminator:   CRLF (Windows-style)
+Header Row:        Yes (column names in first row)
+Null Values:       Blank cells or empty strings
+Date Format:       MM/DD/YYYY
+Time Format:       Integer (HHMM in 24-hour format)
+
+================================================================================
+CONTACT INFORMATION
+================================================================================
+
+Data Provider:     Los Angeles Police Department
+Open Data Team:    City of Los Angeles Information Technology Agency
+Email:             data@lacity.org
+Portal Support:    Via LA Open Data Portal help section
+Technical Issues:  Submit via portal feedback form
+
+For LAPD-specific inquiries:
+Website:          lapdonline.org
+Media Relations:  (213) 486-5910
+
+================================================================================
+CITATION FORMAT
+================================================================================
+
+APA Style:
+Los Angeles Police Department. (2026). Crime Data from 2020 to Present 
+[Data set]. City of Los Angeles Open Data Portal. 
+https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/
+
+Chicago Style:
+Los Angeles Police Department. "Crime Data from 2020 to Present." 
+City of Los Angeles Open Data Portal. Accessed February 2026. 
+https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/
+
+================================================================================
+DATASET ACQUISITION DETAILS
+================================================================================
+
+Downloaded By:     Group 13, Section E (DVA Capstone Team)
+Download Date:     February 11, 2026
+Download Method:   Direct CSV export from LA Open Data Portal
+File Size:         ~195 MB (original)
+Records Selected:  ~10,000 records (representative sample for analysis)
+Selection Criteria: Random sample covering all 21 areas, all 5 years
+
+Verification Steps:
+  ✓ File integrity check (checksum verification)
+  ✓ Record count validation
+  ✓ Column structure inspection
+  ✓ Date range verification (2020-2024 confirmed)
+  ✓ Geographic coverage validation (all 21 areas present)
+  ✓ Crime type distribution review
+
+================================================================================
+PROJECT USAGE
+================================================================================
+
+This dataset is used for:
+- Public Safety Dashboard creation
+- Crime pattern analysis (geographic, temporal, demographic)
+- KPI calculation and performance metrics
+- Predictive analytics and forecasting
+- Data visualization and reporting
+- Academic capstone project requirements
+
+Analysis Tools:
+- Primary: Google Sheets
+- Visualization: Google Sheets Charts
+- Optional: Python, Looker Studio
+
+================================================================================
+DATA ETHICS & PRIVACY
+================================================================================
+
+Privacy Protections in Original Dataset:
+- No victim names or personal identifiers
+- Addresses rounded to 100-block level
+- No officer names or badge numbers
+- Sensitive locations (e.g., hospitals, schools) may have modified coordinates
+
+Our Additional Considerations:
+- Data used solely for educational and analytical purposes
+- No attempt to re-identify individuals
+- Results presented in aggregate form
+- Compliance with academic integrity standards
+- Adherence to LAPD data usage guidelines
+
+================================================================================
+VERSION HISTORY
+================================================================================
+
+Version 1.0 - February 11, 2026
+- Initial dataset acquisition for Gate 1 submission
+- Downloaded 10,000 records covering 2020-2024
+- File integrity verified
+- Documentation created
+
+================================================================================
+END OF DATA SOURCE INFORMATION
+================================================================================
+
+For questions about this document, contact:
+Capstone Group 13, Section E
+Los Angeles Crime Analytics Project
+Newton School of Technology - DVA Cohort 2026
