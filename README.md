@@ -76,12 +76,13 @@ By concentrating interventions on the highest-priority areas and time slots, sta
 ## 📁 Repository Structure
 
 ```
-├── data/
-│   ├── raw/              # Original LAPD crime records
-│   └── cleaned/          # Processed and analysis-ready data
-├── analysis/             # KPI calculations and statistical analysis
-├── dashboard/            # Dashboard files and assets
-├── report/               # Final analytical report
+├── RawDataset/
+├── Cleaned/          
+├── Calculations_Pivots/             
+├── dashboard/
+├── Documentation/            
+├── report/
+├── presentation/              
 └── README.md
 ```
 
